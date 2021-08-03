@@ -1,0 +1,37 @@
+<%- include("partials/header"); -%>
+    <h1 style="color: brown">Kisan Suvidha</h1>
+    <section class="main">
+      <div class="btn-back">
+        <button class="previous" id="btn_previous" onclick="location.href='/pmkisan';"><</button>
+        <h1 style="color: brown"> <b>PM-KISAN ></b> <small>Beneficiary Status</small></h1>
+      </div>
+      <div class="box">
+          <form action="" class="form">
+              <div class="item-1 item">
+                  <label for="IdType">Select ID Type*</label>
+                  <select name="IdType" id="id_type" class="input">
+                    <option value="" selected="selected" disabled>
+                      Select ID Type
+                    </option>
+                    <option value="1">Aadhaar Number</option>
+                    <option value="2">Account Number</option>
+                    <option value="3">Mobile Number</option>
+                  </select>
+              </div>
+              <div class="item-2 item">
+                  <label for="value">Enter Value*</label>
+                  <input type="text" name="value" class="input" id="enter_value" placeholder="Enter Value">
+              </div>
+              <div class="item-3 item">
+                  <button type="button" id="toggle" class="btn btn-primary btn-lg" >Get Active Installment</button>
+              </div>
+          </form>
+      </div>
+      <div class="databox" id="data-box" style="display:none;">
+        <h1>The Required Information will be Displayed here.</h1>
+      </div>
+    </section>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/annyang/2.6.1/annyang.min.js"></script>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/SpeechKITT/1.0.0/speechkitt.min.js"></script>
+    <script src="/js/beneficiaryStatus.js"></script>
+<%- include("partials/footer"); -%>

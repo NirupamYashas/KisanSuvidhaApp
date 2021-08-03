@@ -1,0 +1,20 @@
+<%- include("partials/header"); -%> 
+    <h1>Kisan Suvidha</h1>
+    <section class="main">
+      <button type="button" name="button" class="agri_butt">Agriculture</button>
+      <!-- <button type="button" name="button">Animal Husbandry</button> -->
+      <div class="agri">
+        <button type="button" name="button" id ="pm_kisan" class="butt" onclick="location.href='/pmkisan';">PM Kisann</button>
+        <button type="button" name="button" id ="fertilizers" class="butt" onclick="location.href='/fertilizers';">Fertilizers</button>
+        <button type="button" name="button" id ="kisan_rath" class="butt" onclick="location.href='/kisanrath';">KisanRath</button>
+        <button type="button" name="button" id ="crop_insurance" class="butt" onclick="location.href='/cropInsurance';">Crop Insurance</button>
+      </div>
+
+      <!-- <div class="animal">
+        <button type="button" name="button">Animal Husbandry</button>
+      </div> -->
+    </section>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/annyang/2.6.1/annyang.min.js"></script>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/SpeechKITT/1.0.0/speechkitt.min.js"></script>
+    <script src="/js/main.js"></script>
+<%- include("partials/footer"); -%>

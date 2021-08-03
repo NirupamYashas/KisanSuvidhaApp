@@ -1,0 +1,150 @@
+h1 {
+  color: brown;
+  font-weight: bolder;
+  text-align: center;
+}
+.main {
+  margin: 3% 10%;
+  border-radius: 30px;
+  background-color: #F6F9FB;
+  padding: 3%;
+}
+
+.agri{
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+  margin-top: 30px;
+  flex-wrap: wrap;
+}
+
+.agri_butt {
+  border: 2px solid brown;
+  background-color: brown;
+  color: #fff;
+  margin-bottom: 30px;
+  width: 100px;
+  height: 50px;
+  border-radius: 6px;
+  margin-left: 30px;
+}
+
+.butt {
+  border-radius: 50%;
+  border: 1px solid #E7EAF3;
+  background-color: #E7EAF3;
+  font-weight: bold;
+  margin: 0 30px;
+  width: 130px;
+  height: 130px;
+}
+
+a {
+  text-decoration: none;
+  display: inline-block;
+  padding: 8px 16px;
+}
+
+a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+.previous {
+  background-color: #f1f1f1;
+  color: black;
+  width: 50px;
+  height: 40px;
+  border-radius: 6px;
+  border: solid black 2px;
+  font-size: 2rem;
+}
+
+.btn-back{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.btn-back h1{
+  margin: 0 20px; 
+}
+
+.form{
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+  margin: 20px;
+}
+
+.item{
+  display: flex;
+  flex-direction: column;
+  margin: 20px;
+  font-size: 20px;
+}
+
+.input{
+  width: 300px;
+}
+
+.input-transport{
+  width: 200px;
+}
+
+.input-fertilizer{
+  width: 390px;
+}
+
+.box{
+  height: max-content;
+  flex-grow: 1;
+  margin: 20px 0;
+  background-color: white;
+  border-radius: 20px;
+  box-shadow: 8px 8px grey;
+  flex-wrap: wrap;
+}
+
+.databox{
+  height: 200px;
+  flex-grow: 1;
+  display: flex;
+  flex-direction: column;
+  margin: 40px 0;
+  background-color: white;
+  border-radius: 20px;
+  box-shadow: 8px 8px grey;
+}
+
+.databox h1{
+  font-size: 20px;
+  padding: 70px;
+}
+
+.elmt{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+}
+
+.elmt-box{
+  height: 80px;
+  width: 600px;
+  font-size: 20px;
+  background-color: #eee;
+  border-radius: 14px;
+  margin: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.item-helpline{
+  margin: 20px;
+}

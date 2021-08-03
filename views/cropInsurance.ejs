@@ -1,0 +1,16 @@
+<%- include("partials/header"); -%>
+    <h1>Kisan Suvidha</h1>
+    <section class="main">
+      <div class="btn-back">
+        <button class="previous" id="btn_previous" onclick="location.href='/';"><</button>
+        <h1>Crop Insurance</h1>
+      </div>
+      <div class="agri">
+        <button type="button" name="button" id="premium_calculator" class="butt" onclick="location.href='/premiumCalculator';">Premium Calculator</button>
+        <button type="button" name="button" id="application_status" class="butt" onclick="location.href='/applicationStatus';">Application Status</button>
+      </div>
+    </section>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/annyang/2.6.1/annyang.min.js"></script>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/SpeechKITT/1.0.0/speechkitt.min.js"></script>
+    <script src="/js/main.js"></script>
+<%- include("partials/footer"); -%>

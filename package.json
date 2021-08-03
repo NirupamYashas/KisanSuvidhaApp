@@ -1,0 +1,18 @@
+{
+  "name": "ks-app",
+  "version": "1.0.0",
+  "description": "Application for Kisan Suvidha using Annyang API",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "K. Nirupam Yashas",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "chalk": "^4.1.1",
+    "ejs": "^3.1.6",
+    "express": "^4.17.1",
+    "nodemon": "^2.0.12"
+  }
+}

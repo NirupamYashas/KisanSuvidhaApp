@@ -1,0 +1,38 @@
+<%- include("partials/header"); -%>
+    <h1>Kisan Suvidha</h1>
+    <section class="main">
+        <div class="btn-back">
+            <button class="previous" id="btn_previous" onclick="location.href='/fertilizers';"><</button>
+            <h1> <b>Fertilizer ></b> <small>Fertilizer Price</small></h1>
+        </div>
+      <div class="box">
+          <form action="" class="form">
+              <div class="item">
+                <label>
+                    Select State*
+                    <select name="state" id="select_state" class="input-transport">
+                        <option value="" selected="selected">--Select--</option>
+                    </select>
+                </label>
+              </div>
+              <div class="item">
+                <label>
+                    Select Product*
+                    <select name="product" id="select_product" class="input-fertilizer">
+                        <option value="" selected="selected">--Select--</option>
+                    </select>
+                </label>
+              </div>
+              <div class="item">
+                <button type="button" id="toggle" class="btn btn-primary btn-lg">Submit</button>
+              </div>   
+          </form>
+      </div>
+      <div class="databox" id="data-box" style="display:none;">
+        <h1>The Required Information will be Displayed here.</h1>
+      </div>
+    </section>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/annyang/2.6.1/annyang.min.js"></script>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/SpeechKITT/1.0.0/speechkitt.min.js"></script>
+    <script src="/js/fertilizerPrice.js"></script>
+<%- include("partials/footer"); -%>

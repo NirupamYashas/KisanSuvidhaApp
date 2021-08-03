@@ -1,0 +1,17 @@
+<%- include("partials/header"); -%>
+    <h1>Kisan Suvidha</h1>
+    <section class="main">
+      <div class="btn-back">
+        <button class="previous" id="btn_previous" onclick="location.href='/';"><</button>
+        <h1>Fertilizers</h1>
+      </div>
+      <div class="agri">
+        <button type="button" name="button" id="fertilizer_stock_position" class="butt" onclick="location.href='/fertilizerStockPosition';">Ferilizer Stock Position</button>
+        <button type="button" name="button" id="fertilizer_price" class="butt" onclick="location.href='/fertilizerPrice';">Fertilizer Price</button>
+        <button type="button" name="button" id="fertilizer_retailers" class="butt" onclick="location.href='/fertilizerRetailers';">Fertilizer Retailers</button>
+      </div>
+    </section>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/annyang/2.6.1/annyang.min.js"></script>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/SpeechKITT/1.0.0/speechkitt.min.js"></script>
+    <script src="/js/fertilizers.js"></script>
+<%- include("partials/footer"); -%>

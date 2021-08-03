@@ -1,0 +1,17 @@
+<%- include("partials/header"); -%>
+    <h1>Kisan Suvidha</h1>
+    <section class="main">
+      <div class="btn-back">
+        <button class="previous" id="btn_previous" onclick="location.href='/';"><</button>
+        <h1>KISAN-RATH</h1>
+      </div>
+      <div class="agri">
+        <button type="button" name="button" id="transport_service" class="butt" onclick="location.href='/transportService';">Transport Service Provider in your Area</button>
+        <button type="button" name="button" id="buy_requests" class="butt" onclick="location.href='/buyRequests';">Buy Requests</button>
+        <button type="button" name="button" id="sell_offers" class="butt" onclick="location.href='/sellOffers';">Sell Offers</button>
+      </div>
+    </section>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/annyang/2.6.1/annyang.min.js"></script>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/SpeechKITT/1.0.0/speechkitt.min.js"></script>
+    <script src="/js/kisanrath.js"></script>
+<%- include("partials/footer"); -%>

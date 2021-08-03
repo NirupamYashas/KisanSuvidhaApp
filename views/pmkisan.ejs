@@ -1,0 +1,19 @@
+<%- include("partials/header"); -%> 
+    <h1>Kisan Suvidha</h1>
+    <section class="main">
+      <div class="btn-back">
+        <button class="previous" id="btn_previous" onclick="location.href='/';"><</button>
+        <h1>PM-KISAN</h1>
+      </div>
+      <div class="agri">
+        <button type="button" name="button" id="beneficiary_status" class="butt" onclick="location.href='/beneficiaryStatus';">Know Beneficiary and Payment Status</button>
+        <button type="button" name="button" id="edit_aadhaar_details" class="butt" onclick="location.href='/editAadhaarDetails';">Edit Aadhaar Details</button>
+        <button type="button" name="button" id="know_status" class="butt" onclick="location.href='/knowStatus';">Self Registered? Know Status</button>
+        <button type="button" name="button" id="faq" class="butt" onclick="location.href='/faq';">FAQ</button>
+        <button type="button" name="button" id="contact_us" class="butt" onclick="location.href='/contactUs';">Contact Us</button>
+      </div>
+    </section>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/annyang/2.6.1/annyang.min.js"></script>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/SpeechKITT/1.0.0/speechkitt.min.js"></script>
+    <script src="/js/pmkisan.js"></script>
+<%- include("partials/footer"); -%>
